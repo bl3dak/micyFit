@@ -17,6 +17,15 @@
     overflow: hidden;
 }
 
+.chisiamoBanner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(images/backgrounds/pricing.jpg);
+    background-size: cover;
+    background-position: center; 
+    overflow: hidden;
+}
+
 .homeBanner{
     width: 100%;
     height: 100vh;
@@ -107,7 +116,14 @@
     width: 100%;
 }
 
-
+.sediBanner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(images/backgrounds/darkbg.jpg);
+    background-size: cover;
+    background-position: center; 
+    overflow: hidden;
+}
 
 .content{
     width: 100%;
@@ -124,6 +140,54 @@
 }
 
 .content p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
+
+.sediContent{
+    width: 100%;
+    position: top;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+    opacity: 0;
+    animation: fadeInDrop 1s ease forwards;
+    position: relative;
+    top: -50px;
+}
+
+.sediContent h2{
+    font-size: 70px;
+    margin-top: 80px;
+}
+
+.sediContent p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
+
+.chisiamoContent{
+    width: 100%;
+    position: top;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+    opacity: 0;
+    animation: fadeInDrop 1s ease forwards;
+    position: relative;
+    top: -50px;
+}
+
+.chisiamoContent h1{
+    font-size: 70px;
+    margin-top: 80px;
+}
+
+.chisiamoContent p{
     margin: 20px auto;
     font-weight: 100;
     line-height: 25px;
@@ -166,23 +230,23 @@ button{
     
 }
 
-.container h2{
+.container h1{
     color: #fff;
-    font-size: 32px;
+    font-size: 60px;
     padding: 50px 0;
     text-align: center;
-        opacity: 0;
+    opacity: 0;
     animation: fadeInDrop 1s ease forwards;
     position: relative;
     top: -50px;
 }
 
 .price-row{
-    width: 90%;
+    width: 100%;
     max-width: 1100px;
     margin: auto;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(225px, 1fr));
     grid-gap: 25px;
     
 }
