@@ -148,6 +148,12 @@
     margin-top: 80px;
 }
 
+.content h3{
+    position: absolute;
+    top: 600px;
+    left: 792px;
+}
+
 .content p{
     margin: 20px auto;
     font-weight: 100;
@@ -489,7 +495,7 @@ button{
 }
 
 .contattaciInput::placeholder{
-    color: #a9a9a9;
+    color: #9085da;
 }
 
 .contattaciSinistra button{
