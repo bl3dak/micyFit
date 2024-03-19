@@ -29,7 +29,7 @@
 .contattaciBanner{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(images/bgs/pricing.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(images/bgs/red.webp);
     background-size: cover;
     background-position: center; 
     overflow: hidden;
