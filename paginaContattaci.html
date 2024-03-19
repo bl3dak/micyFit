@@ -5,7 +5,7 @@
         <link rel="stylesheet" href="style.css">
     </head> 
 
-    <body>
+    <body class="Contattaci">
         <div class="contattaciBanner">
             <div class="NavBar">
                 <a href="homePage.html">
@@ -19,15 +19,23 @@
                     <li> <a href="paginaContattaci.html">Contatti</a></li>
                 </ul>
             </div>
-            <div class="Contattaci">
-                <h1>Chi siamo?</h1>
-                <div class="locations">
-                    
+
+            <div class="contattaciContainer">
+                <form action="https://api.web3forms.com/submit" method="POST" class="contattaciSinistra">
+                    <div class="contattaciSinistraTitolo">
+                        <h2>Contattaci</h2>
+                        <hr>
+                    </div>
+                    <input type="hidden" name="access_key" value="521f16e4-cf9f-470f-92f5-e086ca7b09c1">
+                    <input type="text" name="name" placeholder="Your Name" class="contattaciInput" required>
+                    <input type="email" email="name" placeholder="Your Email" class="contattaciInput" required>
+                    <textarea name="message" placeholder="Your Message" class="contattaciInput" required></textarea>
+                    <button type="submit">Submit <img src="images/icone/arrow_icon.png" alt=""></button>
+                </form>
+                <div class="contattaciDestra">
+                    <img src="images/icone/right_img.png" alt="">
                 </div>
-
-                
             </div>
-
         </div>
 
 
